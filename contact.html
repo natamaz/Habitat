@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="icon" href="">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+	<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <title>Habitat</title>
+<link href="./css/main.min.css" rel="stylesheet"></head>
+<!--head-->
+
+
+<body class="contactPage">
+<div class="wrapper ">
+	<header class="header">
+	<div class="container">
+		<div class="flex">
+			<a href="index.html" class="logo">
+				<svg xmlns="http://www.w3.org/2000/svg" width="" height="32" viewBox="0 0 150 32" fill="none">
+					<path class="logo-fill" d="M76.8391 11.8025L77.5838 12.425C79.4607 13.8657 80.2283 15.3391 80.2283 17.4018V27.0934C80.2283 29.0133 79.6616 29.9182 78.1534 30.07C77.9875 30.089 77.8346 30.1682 77.7239 30.2924C77.6133 30.4165 77.5527 30.5769 77.5538 30.7427V30.9213H90.6866V30.7189C90.6903 30.5582 90.6357 30.4015 90.5328 30.2775C90.4299 30.1534 90.2854 30.0703 90.1259 30.0432C88.7556 29.8348 88.2219 28.927 88.2219 27.0934V9.1974C84.6223 10.5391 80.8055 11.4302 76.8391 11.8025Z" fill="white"/>
+					<path class="logo-fill" d="M91.5293 7.81031L92.9443 8.93355C93.9638 9.73424 94.5305 10.7195 94.5545 12.3685L94.5724 24.0812V24.3312C94.5724 28.6769 96.6953 30.9153 100.569 30.9153C102.905 30.9153 103.657 30.6444 104.971 30.1474C104.971 30.1474 102.632 28.8823 102.572 23.8341C102.572 23.346 102.641 9.29371 102.641 9.29371L107.1 9.29073L107.738 7.13869C106.761 7.56136 105.444 7.734 103.702 7.734H102.614V0.44868C99.3208 3.42125 95.5894 5.91187 91.5293 7.81031Z" fill="white"/>
+					<path class="logo-fill" d="M128.566 7.81031L129.981 8.93355C131 9.73424 131.567 10.7195 131.591 12.3685L131.609 24.0812V24.3312C131.609 28.6769 133.732 30.9153 137.605 30.9153C139.941 30.9153 140.694 30.6444 142.007 30.1474C142.007 30.1474 139.668 28.8823 139.608 23.8341C139.608 23.346 139.677 9.29371 139.677 9.29371L144.136 9.29073L144.775 7.13869C143.797 7.56136 142.481 7.734 140.739 7.734H139.65V0.44868C136.357 3.42125 132.626 5.91187 128.566 7.81031Z" fill="white"/>
+					<path class="logo-fill" fill-rule="evenodd" clip-rule="evenodd" d="M50.1024 4.68523L50.8401 5.30197C52.7171 6.74262 53.4847 8.216 53.4847 10.2847V23.8786C53.8924 29.5667 59.1396 30.9865 61.988 31.3735C63.5641 31.592 65.1636 31.584 66.7374 31.3497C67.9773 31.1339 69.1791 30.7409 70.3054 30.1829C74.1253 28.3612 76.0023 24.8251 76.0023 19.9227C75.9813 13.3416 72.1104 8.81429 67.0492 8.81429C64.7105 8.81429 62.6716 9.7519 61.3523 11.4396V0.543049C57.8501 2.40118 54.0746 3.80757 50.1024 4.68523ZM61.3733 20.9467C61.3733 26.8938 61.6282 29.7245 64.3057 29.7245C66.9413 29.7245 67.1961 26.8968 67.1961 20.9467C67.1961 14.9966 66.9833 12.1659 64.3057 12.1659C61.6282 12.1659 61.3733 14.9995 61.3733 20.9467Z" fill="white"/>
+					<path  d="M0.229815 4.65387C4.05249 3.79624 7.69167 2.44863 11.0789 0.679921V11.898C12.803 9.64474 15.3666 8.89168 17.9601 8.89168C21.87 8.89168 24.0888 11.3503 24.0888 15.9104V27.1498C24.0888 29.159 24.7094 29.9805 26.4035 30.0519C26.5019 30.0603 26.5931 30.1062 26.658 30.1801C26.7229 30.2539 26.7564 30.3499 26.7513 30.4478V30.9449H14.3141L14.3052 30.4478C14.3051 30.3652 14.3303 30.2846 14.3774 30.2166C14.4245 30.1486 14.4913 30.0963 14.569 30.0668C15.7234 29.6471 16.0952 28.769 16.0952 27.1557V16.5831C16.0772 13.8833 15.6064 12.6183 13.6965 12.6183C11.9544 12.6183 11.4027 13.925 11.4027 16.5831V27.1676C11.4027 28.766 11.8015 29.6798 12.9019 30.0757C12.9885 30.1033 13.064 30.1573 13.1179 30.2299C13.1717 30.3026 13.2011 30.3903 13.2018 30.4805V30.9449H0.761582L0.74659 30.4359C0.747126 30.332 0.787335 30.2321 0.859113 30.1564C0.93089 30.0807 1.0289 30.0349 1.13338 30.0281C2.75249 29.9239 3.42412 29.1322 3.42412 27.1557V9.90668C3.40113 9.14335 3.21776 8.3932 2.88576 7.7043C2.55377 7.01541 2.08046 6.40296 1.49618 5.90621L0.179901 4.84656L0 4.72154C0.0756974 4.69962 0.152302 4.67706 0.229815 4.65387Z" fill="white"/>
+					<path class="logo-fill" d="M86.1661 6.78817C85.7509 6.96232 85.3042 7.05015 84.8535 7.04622C84.4095 7.05116 83.9691 6.96779 83.5581 6.80103C83.1471 6.63428 82.774 6.38751 82.4606 6.07529C82.1473 5.76307 81.9001 5.39171 81.7336 4.98313C81.5672 4.57454 81.4848 4.137 81.4914 3.69632C81.498 3.25563 81.5935 2.82071 81.7721 2.41723C81.9507 2.01374 82.209 1.64986 82.5315 1.34703C82.8541 1.04421 83.2345 0.808575 83.6503 0.654036C84.0661 0.499496 84.5088 0.429177 84.9524 0.447228C85.7884 0.477284 86.5828 0.816846 87.1793 1.3991C87.7758 1.98135 88.1312 2.76413 88.1756 3.59343C88.2002 4.04021 88.1323 4.48725 87.9761 4.90695C87.8199 5.32666 87.5787 5.71012 87.2674 6.03368C86.9561 6.35724 86.5812 6.61402 86.1661 6.78817Z" fill="white"/>
+					<path class="logo-fill" fill-rule="evenodd" clip-rule="evenodd" d="M49.4159 16.842C49.4159 16.842 49.242 25.8222 49.308 26.739C49.4699 28.9119 51.5657 28.4863 51.5657 28.4863C51.4212 29.0533 51.0872 29.5549 50.6182 29.909C49.4459 30.9449 47.7968 30.9449 46.6964 30.9449C44.1808 30.9449 42.4987 29.7721 41.7101 27.5576C39.5933 29.9656 37.2156 31.5551 34.3941 31.5283C29.4528 31.4777 27.8038 27.3105 28.2115 24.6316C28.6763 21.5509 31.024 20.3246 34.586 19.2739C36.6099 18.6756 41.3293 17.8005 41.3293 17.8005V15.0204C41.3293 12.0111 40.6397 10.6389 38.7328 10.6389C37.2186 10.6389 36.1362 11.6688 36.1362 12.9576C36.1362 13.489 36.1656 13.954 36.1902 14.3431C36.2079 14.6232 36.2231 14.864 36.2231 15.062C36.2231 17.1635 34.9248 18.4523 33.1108 18.4523C31.3808 18.4523 30.2564 17.2915 30.2564 15.5323C30.2564 11.9248 33.9894 8.91847 39.9861 8.91847C43.3142 8.91847 45.9528 9.81143 47.5539 11.2729C49.242 12.8624 49.4159 14.2643 49.4159 16.842ZM41.3323 21.7V19.6013C38.7028 20.3008 36.5799 21.7116 36.7029 24.9144C36.7448 26.0395 37.3025 27.4385 39.0806 27.3433C41.3326 27.2281 41.3325 25.2201 41.3323 21.7Z" fill="white"/>
+					<path class="logo-fill" fill-rule="evenodd" clip-rule="evenodd" d="M127.472 26.7777C127.403 25.858 127.577 16.8807 127.577 16.8807C127.577 14.303 127.403 12.8981 125.718 11.3086C124.117 9.84715 121.478 8.94526 118.147 8.94526C112.15 8.94526 108.418 11.9545 108.418 15.5591C108.418 17.3212 109.542 18.4791 111.272 18.4791C113.089 18.4791 114.387 17.1903 114.387 15.0888C114.387 14.8924 114.372 14.6523 114.354 14.3727L114.354 14.3724V14.372C114.33 13.9824 114.3 13.5162 114.3 12.9844C114.3 11.6956 115.38 10.6687 116.897 10.6687C118.801 10.6687 119.493 12.0409 119.493 15.0472V17.8273C119.493 17.8273 114.771 18.7024 112.75 19.3006C109.188 20.3543 106.84 21.5807 106.373 24.6584C105.968 27.3373 107.614 31.5045 112.555 31.5551C115.38 31.5848 117.754 29.9924 119.874 27.5844C120.651 29.8168 122.336 30.9746 124.846 30.9746C125.946 30.9746 127.595 30.9746 128.77 29.9418C129.237 29.5861 129.57 29.085 129.715 28.519C129.715 28.519 127.631 28.9565 127.472 26.7777ZM119.496 21.7387C119.497 25.2587 119.497 27.2638 117.245 27.382C115.464 27.4742 114.906 26.0782 114.864 24.9501C114.759 21.7593 116.858 20.3454 119.496 19.634V21.7387Z" fill="white"/>
+					<path class="logo-fill-next" d="M148.061 29.2346C147.662 29.4029 147.233 29.4886 146.799 29.4864C145.951 29.4737 145.142 29.127 144.551 28.5225C143.96 27.9179 143.635 27.1051 143.648 26.2628C143.661 25.4205 144.01 24.6177 144.619 24.031C145.228 23.4443 146.047 23.1218 146.895 23.1344C147.7 23.1631 148.464 23.4897 149.038 24.05C149.612 24.6103 149.954 25.3636 149.996 26.1616C150.018 26.5913 149.952 27.021 149.801 27.4244C149.651 27.8278 149.419 28.1965 149.119 28.5077C148.82 28.819 148.46 29.0663 148.061 29.2346Z" fill="white"/>
+				</svg>
+			</a>
+			<a href="contact.html" class="btn btn-start">Hire us</a>
+		</div>
+	</div>
+</header>
+
+	<div class="contact-page" data-scroll-section>
+
+		<section class="section contact" >
+			<div class="container">
+				<div class="form-bloc">
+					<h2 class="title">What are you looking for?</h2>
+					<div class="form-bloc__form">
+
+						<form class="form" id="form">
+							<div class="form-bloc__radio-list">
+								<div class="col">
+									<div class="form-bloc__title">Services</div>
+									<ul class="form-bloc__list">
+										<li><label class="input-checkbox"><input type="checkbox" class="checkbox"><span>product design</span></label></li>
+										<li><label class="input-checkbox"><input type="checkbox" class="checkbox"><span>web design</span></label></li>
+										<li><label class="input-checkbox"><input type="checkbox" class="checkbox"><span>branding design</span></label></li>
+										<li><label class="input-checkbox"><input type="checkbox" class="checkbox"><span>all together or something else</span></label></li>
+									</ul>
+								</div>
+								<div class="col">
+									<div class="form-bloc__title">Do you need assistance for</div>
+									<ul class="form-bloc__list">
+										<li><label class="input-radio"><input type="radio" class="radio"><span>a project from scratch</span></label></li>
+										<li><label class="input-radio">	<input type="radio" class="radio"><span>an existing project</span></label></li>
+									</ul>
+								</div>
+							</div>
+							<div class="form-bloc__input-list">
+								<div class="input-bloc">
+									<label class="label-focus">Your name</label>
+									<input class="input input-focus" type="text" placeholder="What’s your name?">
+
+								</div>
+								<div class="input-bloc">
+									<label class="label-focus">Email</label>
+									<input class="input input-focus" type="text" placeholder="What’s your email?">
+
+								</div>
+								<div class="input-bloc input-file ">
+									<label class="label-focus">Project description</label>
+									<input class="input input-focus" type="text" placeholder="Project details"/>
+									<div class="form-group">
+										<div class="fl_upld">
+											<label><input id="fl_inp" type="file" name="file"></label>
+
+										</div>
+									</div>
+									<div id="fl_nm"></div>
+								</div>
+
+								<button class="btn btn-start submit" type="button">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="address-bloc">
+					<h2 class="title">Contact us</h2>
+					<a href="#" class="address-bloc__mail">hello@hbtat.agency</a>
+					<div class="address-bloc__list">
+						<h3 class="address-bloc__title-list">Offices</h3>
+						<div class="list__bloc">
+							<div class="list__title">Rivne, Ukraine</div>
+							<div class="list__text">16 July 42, 33028</div>
+						</div>
+						<div class="list__bloc">
+							<div class="list__title">Amsterdam, Netherlands</div>
+							<div class="list__text">Johan Huizingalaan 763a, 1066 VH </div>
+						</div>
+					</div>
+
+				</div>
+				<div class="valid-message">
+
+					<div class="valid__text image_reveal" data-fx="3">
+						<h2 class="title">Cheers!<br>We’ll contact you
+						</h2>
+						<a href="#" class="valid__text-linc"  data-scroll data-img="img/serv1.jpg" >shortly.</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<footer class="footer">
+	<div class="container">
+
+		<div class="footer__container">
+				<ul class="col">
+					<li><a href="mailto:hello@hbtat.agency" class="email">hello@hbtat.agency</a></li>
+					<li><a href="#" class="info">Legal Information</a></li>
+				</ul>
+			<div class="col">
+				<nav class="footer__menu">
+					<ul class="menu">
+						<li><a href="#">Medium</a></li>
+						<li><a href="#">Behance</a></li>
+						<li><a href="#">Dribbble</a></li>
+
+						<li><a href="#">Clutch</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Linked In</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	</div>
+	<div class="cursor"></div>
+
+
+</div>
+
+
+<script src="./libs/js/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+<script src="./libs/js/charming.min.js"></script>
+<script src="./libs/js/imagesloaded.pkgd.min.js"></script>
+<script src="./libs/js/TweenMax.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+
+<script src="./js/main.min.js"></script></body>
+</html>
